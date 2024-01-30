@@ -1,1 +1,108 @@
 /* Copy your CSS code from CodePen below this point */
+/*  .quarterlymenu{
+  width:800px;
+  margin: 0 auto;
+}  */
+#quarterlymenu {
+    display: none;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1 {
+    background-color: MediumSeaGreen;
+  }
+  h2 {
+    color: white;
+    background-color: MediumSeaGreen;
+  }
+  h3 {
+    color: white;
+    text-align: center;
+    background-color: #23ad25;
+  }
+  h4 {
+    font-family: "copperplate";
+  }
+  .backgroundimage {
+  }
+  .img {
+    width: 50%;
+    padding: 20px;
+  }
+  .logo {
+    display: none;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+  }
+  p {
+    line-height: 120%;
+    margin: 20px;
+    padding: 5px;
+  }
+  .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background: MediumSeaGreen;
+    padding: 10px;
+  }
+  /* li{
+    margin-left: 20px;
+    margin-right: 20px;
+  } */
+  #aboutus {
+    text-align: center;
+    margin: 20px;
+  }
+  #location {
+    text-align: center;
+  }
+  #hours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #locationAndHours {
+    display: none;
+    background: MediumSeaGreen;
+  }
+  #herosection {
+    background: url("https://hackerusa-ce.github.io/intro-v2-final-project/assets/images/heroBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 15px 100px;
+    background-attachment: fixed;
+    height: 300px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .mathsection {
+    display: none;
+    text-align: center;
+  }
+  #mathmenupics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mathpics {
+    width: 200px;
+    padding: 10px;
+  }
+  #footer {
+    text-align: center;
+  }
+  #social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
